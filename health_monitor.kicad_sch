@@ -2,9 +2,303 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid c6abb77c-95da-4337-b8bb-663a91b271f5)
+	(uuid "c6abb77c-95da-4337-b8bb-663a91b271f5")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 130.81 71.12)
+		(size 50.8 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0600b84d-9564-4910-a69f-e5ec417d5f8b")
+		(property "Sheetname" "MCU"
+			(at 130.81 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 130.81 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIO_6" bidirectional
+			(at 130.81 99.06 180)
+			(uuid "629baea1-86e8-4ae6-909e-4bfd2eed7fe6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIO_0" bidirectional
+			(at 181.61 76.2 0)
+			(uuid "75bd2195-cb0f-46b3-87fa-bb55a1cea5d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 130.81 81.28 180)
+			(uuid "23d6068f-0055-4e95-9907-760b8a8f025a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIO_1" bidirectional
+			(at 181.61 80.01 0)
+			(uuid "70d369eb-e8d3-491a-a4ac-39dd2d507469")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIO_3" bidirectional
+			(at 181.61 87.63 0)
+			(uuid "f91e7c70-5950-4e03-9c66-6f7f20154685")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF_P" bidirectional
+			(at 151.13 71.12 90)
+			(uuid "02df9ff6-0d5b-435c-962a-9f59a45fb573")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JTAG-TCKC" input
+			(at 130.81 91.44 180)
+			(uuid "1cd2da63-8e91-4f18-9bdf-24ba3d983c79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIO_10" bidirectional
+			(at 156.21 115.57 270)
+			(uuid "95277744-5f70-4abb-8e1a-fd11013e11fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" input
+			(at 130.81 106.68 180)
+			(uuid "f5b77f62-5158-4354-9b22-724939589c01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIO_11" bidirectional
+			(at 160.02 115.57 270)
+			(uuid "829aeacb-0d16-45ea-ac3c-ba0db60ea1c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIO_13" bidirectional
+			(at 167.64 115.57 270)
+			(uuid "bd41f016-d811-46ec-bed9-aaa1c48f350c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIO_5" bidirectional
+			(at 130.81 95.25 180)
+			(uuid "b4aeab93-f30f-4977-a792-dc2c855d762c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIO_2" bidirectional
+			(at 181.61 83.82 0)
+			(uuid "2d535d0c-8486-4e5c-86f0-af0b08fdb032")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIO_12" bidirectional
+			(at 163.83 115.57 270)
+			(uuid "6ca7f3f2-bc1a-49e8-af2d-526104cdefdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIO_8" bidirectional
+			(at 138.43 115.57 270)
+			(uuid "4e00881a-965d-469e-b129-f2cf3ee7bac6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIO_9" bidirectional
+			(at 135.89 115.57 270)
+			(uuid "7ec19445-7cb3-486c-9f68-5172961018ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RF_N" bidirectional
+			(at 158.75 71.12 90)
+			(uuid "69a2664f-b89f-4097-9260-d8a334db7d8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DIO_7" bidirectional
+			(at 142.24 115.57 270)
+			(uuid "90f68a46-2a55-4dab-9e19-e682ad5b978f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD" input
+			(at 130.81 77.47 180)
+			(uuid "a8e36ba1-4894-4779-8e1d-7cd63c1059e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JTAG-TMSC" input
+			(at 130.81 87.63 180)
+			(uuid "2c77b3bf-8ce1-45f6-8ce0-7d0e70357df4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIO_4" bidirectional
+			(at 181.61 91.44 0)
+			(uuid "12828987-d7ee-4138-a11c-902bf3a4d1f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "health_monitor"
+				(path "/c6abb77c-95da-4337-b8bb-663a91b271f5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 142.24)
+		(size 24.13 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8851ff32-3a73-47b9-b5ee-4a11713c7c36")
+		(property "Sheetname" "AFE"
+			(at 97.79 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "afe.kicad_sch"
+			(at 97.79 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "health_monitor"
+				(path "/c6abb77c-95da-4337-b8bb-663a91b271f5"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
