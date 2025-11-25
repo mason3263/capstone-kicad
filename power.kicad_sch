@@ -1,0 +1,96 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "001f3cbc-8a06-4298-8c6a-7b9e4df24ddd")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 76.2 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "512dc7d3-e10c-4a56-8bbc-475ae61f3e62")
+	)
+	(hierarchical_label "ACCEL_VDD_DIGITAL"
+		(shape input)
+		(at 76.2 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "767efac4-8018-4cd4-83e3-4f92811046bf")
+	)
+	(hierarchical_label "BAT"
+		(shape input)
+		(at 76.2 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "826a4772-5e22-47ea-9c13-4fcb1a174d1f")
+	)
+	(hierarchical_label "MCU_VDD"
+		(shape input)
+		(at 76.2 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a884db96-1e5e-41c7-be54-2bc1c07d6bf3")
+	)
+	(hierarchical_label "AFE_VDD_DIGITAL"
+		(shape input)
+		(at 76.2 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b12b2edf-74e4-4411-912b-9a57bedba210")
+	)
+	(hierarchical_label "AFE_VDD_ANALOG"
+		(shape input)
+		(at 76.2 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c57b77c0-cfc3-4e23-a89d-abf24b613f96")
+	)
+	(hierarchical_label "ACCEL_VDD_ANALOG"
+		(shape input)
+		(at 76.2 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e63a7761-b5bb-4adb-86ca-6b18a9fb47b7")
+	)
+	(hierarchical_label "AFE_VDD_LED"
+		(shape input)
+		(at 76.2 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e791d0db-2c7e-474a-9b46-b991c1e5f1b8")
+	)
+)

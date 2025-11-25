@@ -636,11 +636,19 @@
     ],
     [
       "0600b84d-9564-4910-a69f-e5ec417d5f8b",
-      "MCU"
+      "Microcontroller"
     ],
     [
       "8851ff32-3a73-47b9-b5ee-4a11713c7c36",
-      "AFE"
+      "Optical Front-End"
+    ],
+    [
+      "38cee088-26f6-47fc-abf3-a66cd0084ddf",
+      "Power Management"
+    ],
+    [
+      "358419c9-c370-4922-b7be-5624e76259dc",
+      "Accelerometer"
     ]
   ],
   "text_variables": {}
