@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "896b2158-67bf-4de4-90c3-b6c2795dffb3")
 	(paper "A4")
+	(title_block
+		(title "ADCL366 Accelerometer")
+		(company "Guardian Health Inc.")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers

@@ -618,7 +618,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "drawings/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -640,7 +640,7 @@
     ],
     [
       "8851ff32-3a73-47b9-b5ee-4a11713c7c36",
-      "Optical Front-End"
+      "MAX86140 AFE"
     ],
     [
       "38cee088-26f6-47fc-abf3-a66cd0084ddf",
