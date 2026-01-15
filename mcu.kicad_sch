@@ -3948,7 +3948,7 @@
 		(uuid "f625652b-2113-4364-8f40-a32e7cf60152")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 104.14 73.66 180)
 		(effects
 			(font
@@ -3959,7 +3959,7 @@
 		(uuid "29a46a50-9858-48d3-bfea-aa20e0655302")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 123.19 48.26 180)
 		(effects
 			(font
@@ -3970,7 +3970,7 @@
 		(uuid "32665407-a120-4f87-bce9-f6875a727aa6")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 116.84 66.04 180)
 		(effects
 			(font
@@ -3981,7 +3981,7 @@
 		(uuid "32817122-cd54-448e-8f6e-c529d80da83a")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 78.74 137.16 270)
 		(effects
 			(font
@@ -3991,7 +3991,7 @@
 		)
 		(uuid "377146ba-3f88-4c11-a0e7-7e659b74d79d")
 	)
-	(hierarchical_label "RF_P"
+	(hierarchical_label "RF_{P}"
 		(shape bidirectional)
 		(at 144.78 129.54 180)
 		(effects
@@ -4003,7 +4003,7 @@
 		(uuid "3cbee846-4349-4290-8f59-b3f4546f0c65")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 123.19 85.09 180)
 		(effects
 			(font
@@ -4013,7 +4013,7 @@
 		)
 		(uuid "3d7d5f9a-9edb-4e46-80b6-8f1ecaca6a54")
 	)
-	(hierarchical_label "JTAG_TCKC"
+	(hierarchical_label "JTAG_{TCKC}"
 		(shape input)
 		(at 144.78 118.11 180)
 		(effects
@@ -4025,7 +4025,7 @@
 		(uuid "41099e0f-a6ba-4b86-ab9a-385d3f43faed")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 90.17 92.71 180)
 		(effects
 			(font
@@ -4036,7 +4036,7 @@
 		(uuid "4bbedcb0-7740-4ee7-95ec-48ffcede734a")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 128.27 128.27 0)
 		(effects
 			(font
@@ -4058,7 +4058,7 @@
 		(uuid "699a4621-9199-40c3-9dc0-32f61337da84")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 73.66 121.92 180)
 		(effects
 			(font
@@ -4069,7 +4069,7 @@
 		(uuid "6c71d81d-f8cf-428f-80b6-4edaf5722b37")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 105.41 88.9 180)
 		(effects
 			(font
@@ -4080,7 +4080,7 @@
 		(uuid "7e85d3a6-9e47-4f46-ac64-39fba2e717ad")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 123.19 99.06 180)
 		(effects
 			(font
@@ -4090,7 +4090,7 @@
 		)
 		(uuid "8a6c26be-6efe-4c6c-979f-2622becac71a")
 	)
-	(hierarchical_label "VDD"
+	(hierarchical_label "V_{DD}"
 		(shape input)
 		(at 101.6 128.27 180)
 		(effects
@@ -4113,7 +4113,7 @@
 		(uuid "a61dec91-da4e-4a1b-b7ab-8071aec4f2de")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 78.74 105.41 90)
 		(effects
 			(font
@@ -4124,7 +4124,7 @@
 		(uuid "c4666e29-4141-4fd3-90f0-43bcbf989484")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 83.82 121.92 0)
 		(effects
 			(font
@@ -4135,7 +4135,7 @@
 		(uuid "c67d02f6-6637-43fe-81d9-9eedfa71de69")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 110.49 52.07 180)
 		(effects
 			(font
@@ -4145,7 +4145,7 @@
 		)
 		(uuid "cced2e9d-1d6b-4085-858d-7d683c4eb14e")
 	)
-	(hierarchical_label "RF_N"
+	(hierarchical_label "RF_{N}"
 		(shape bidirectional)
 		(at 144.78 132.08 180)
 		(effects
@@ -4157,7 +4157,7 @@
 		(uuid "d99483d5-bc6b-4928-95f8-ab478b4e839c")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 135.89 44.45 180)
 		(effects
 			(font
@@ -4168,7 +4168,7 @@
 		(uuid "dd22115e-6037-4070-bce8-15e8f13f80b4")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape passive)
 		(at 129.54 62.23 180)
 		(effects
 			(font
@@ -4189,7 +4189,7 @@
 		)
 		(uuid "e2380f63-b3d7-458f-87bb-3269a9d391b4")
 	)
-	(hierarchical_label "VDD"
+	(hierarchical_label "V_{DD}"
 		(shape input)
 		(at 147.32 44.45 0)
 		(effects
@@ -4200,7 +4200,7 @@
 		)
 		(uuid "e41940e1-7ef3-4275-8899-80941c41d598")
 	)
-	(hierarchical_label "JTAG_TMSC"
+	(hierarchical_label "JTAG_{TMSC}"
 		(shape input)
 		(at 144.78 120.65 180)
 		(effects
@@ -4212,7 +4212,7 @@
 		(uuid "e8fabf02-2846-400a-aa07-0ca264d70eea")
 	)
 	(hierarchical_label "DIO[0..30]"
-		(shape input)
+		(shape bidirectional)
 		(at 228.6 139.7 0)
 		(effects
 			(font
@@ -4247,7 +4247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 105.41 89.8652 0)
 			(effects
 				(font
@@ -4320,7 +4320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 111.76 72.6948 0)
 			(effects
 				(font
@@ -4460,7 +4460,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Pulse_PA4332"
 			(at 135.89 73.66 0)
 			(effects
 				(font
@@ -4480,6 +4480,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MouserURL" "https://www.mouser.com/ProductDetail/Pulse-Electronics/PA4332.682NLT?qs=%2FzQKu7YvIMbRulhkYYDqtA%3D%3D"
+			(at 135.89 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4533,7 +4542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 79.7052 113.03 0)
 			(effects
 				(font
@@ -4600,7 +4609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 123.19 86.0552 0)
 			(effects
 				(font
@@ -4673,7 +4682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 135.89 45.4152 0)
 			(effects
 				(font
@@ -4746,7 +4755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 123.19 49.2252 0)
 			(effects
 				(font
@@ -4819,7 +4828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 125.73 127.3048 0)
 			(effects
 				(font
@@ -4892,7 +4901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 97.79 105.7148 0)
 			(effects
 				(font
@@ -4959,7 +4968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 79.7052 137.16 0)
 			(effects
 				(font
@@ -5027,7 +5036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 130.048 90)
 			(effects
 				(font
@@ -5100,7 +5109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 110.49 53.0352 0)
 			(effects
 				(font
@@ -5174,7 +5183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VQFN48_RGZ_TEX"
+		(property "Footprint" "Project-Symbols:CC2647R106T0RGZR"
 			(at 146.05 37.084 0)
 			(effects
 				(font
@@ -5456,7 +5465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 90.17 93.6752 0)
 			(effects
 				(font
@@ -5523,7 +5532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 123.19 100.0252 0)
 			(effects
 				(font
@@ -5590,7 +5599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 137.16 61.2648 0)
 			(effects
 				(font
@@ -5663,7 +5672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 116.84 67.0052 0)
 			(effects
 				(font
