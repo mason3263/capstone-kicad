@@ -404,168 +404,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 2.54)
-					(mid 0.6323 1.905)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 -0.635)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -1.905)
-					(end 0 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2109,12 +1947,6 @@
 		(uuid "83e650fc-4626-4f39-aaaf-cfa7b7564718")
 	)
 	(junction
-		(at 130.81 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ff161d7-ddcc-4253-97eb-e5d4b061f0f5")
-	)
-	(junction
 		(at 130.81 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2137,6 +1969,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c77d516c-8333-4517-b400-a31a7cebdf4d")
+	)
+	(no_connect
+		(at 144.78 78.74)
+		(uuid "a81976f0-1333-4d91-ad3b-a34356121103")
 	)
 	(bus_entry
 		(at 213.36 86.36)
@@ -2759,16 +2595,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 78.74) (xy 144.78 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b094c05-86ab-4a63-b45b-2d7677fae691")
-	)
-	(wire
-		(pts
 			(xy 205.74 60.96) (xy 213.36 60.96)
 		)
 		(stroke
@@ -2919,16 +2745,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 73.66) (xy 132.08 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72f90f84-a564-4d57-9b0f-54e41d9c04a1")
-	)
-	(wire
-		(pts
 			(xy 139.7 62.23) (xy 137.16 62.23)
 		)
 		(stroke
@@ -3006,16 +2822,6 @@
 			(type default)
 		)
 		(uuid "7d925736-8853-45f0-bba8-7a12edc6b7bb")
-	)
-	(wire
-		(pts
-			(xy 142.24 73.66) (xy 142.24 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e340d1e-0558-4ed1-b6bf-b079e33c1a15")
 	)
 	(wire
 		(pts
@@ -3476,16 +3282,6 @@
 			(type default)
 		)
 		(uuid "dad469e5-0abf-4534-8a2d-b58bb211b665")
-	)
-	(wire
-		(pts
-			(xy 139.7 73.66) (xy 142.24 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db1965c9-4fd8-4e52-be6b-e47f9720f539")
 	)
 	(wire
 		(pts
@@ -4405,7 +4201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4; CX2016FB48000D0FZZH1"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4; NX2016SA-48MHZ-EXS00A-CS05517"
 			(at 78.74 121.92 0)
 			(effects
 				(font
@@ -4430,88 +4226,6 @@
 			(project ""
 				(path "/c6abb77c-95da-4337-b8bb-663a91b271f5/0600b84d-9564-4910-a69f-e5ec417d5f8b"
 					(reference "CX2016FB-1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 135.89 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1589d54e-8843-4572-bfef-6e55321fd139")
-		(property "Reference" "L1"
-			(at 135.89 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "6.8uH"
-			(at 135.89 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Pulse_PA4332"
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MouserURL" "https://www.mouser.com/ProductDetail/Pulse-Electronics/PA4332.682NLT?qs=%2FzQKu7YvIMbRulhkYYDqtA%3D%3D"
-			(at 135.89 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e054d8e0-d68c-4b75-8108-9ff9c39d343e")
-		)
-		(pin "2"
-			(uuid "9edee2e5-eba7-4c33-8a86-2020cae7fbb0")
-		)
-		(instances
-			(project "health_monitor"
-				(path "/c6abb77c-95da-4337-b8bb-663a91b271f5/0600b84d-9564-4910-a69f-e5ec417d5f8b"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/e9ed16af-9ab2-4ec3-95b1-0b878a10626b"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -5036,7 +4750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 107.95 130.048 90)
 			(effects
 				(font
@@ -5416,7 +5130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NX2012SA-32.768KHZ-STD-MUB-2"
 			(at 104.14 104.14 0)
 			(effects
 				(font
