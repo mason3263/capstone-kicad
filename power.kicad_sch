@@ -3327,7 +3327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 251.46 62.23 0)
 			(effects
 				(font
@@ -3799,7 +3799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 251.46 49.53 0)
 			(effects
 				(font
@@ -3955,6 +3955,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCSC PN" "C6075475"
 			(at 44.45 83.82 0)
 			(effects
 				(font
@@ -4594,6 +4603,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C22407142"
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7fce4d61-dcb7-4a84-a1b9-f4d803425f1f")
 		)
@@ -5015,6 +5033,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C527526"
 			(at 200.66 90.17 0)
 			(effects
 				(font

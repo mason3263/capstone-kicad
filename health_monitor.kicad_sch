@@ -5834,6 +5834,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C161362"
+			(at 255.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bf8ecb3-355e-4e17-b521-93965180d72b")
 		)
@@ -6270,7 +6279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project-Symbols:CONN16_203615_MOL"
+		(property "Footprint" "Project-Symbols:MOLEX_USBC_1054500101"
 			(at 36.322 14.986 0)
 			(effects
 				(font
@@ -6291,6 +6300,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 29.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C5447355"
 			(at 29.21 31.75 0)
 			(effects
 				(font
