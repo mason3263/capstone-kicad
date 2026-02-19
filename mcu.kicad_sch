@@ -4210,6 +4210,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C5186571"
+			(at 78.74 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c9874955-2b6b-4786-8c28-e5213babb73d")
 		)
@@ -5132,6 +5141,15 @@
 		)
 		(property "Description" "NX2012SA-32.768KHZ-STD-MUB-2"
 			(at 104.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C891748"
+			(at 104.14 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)

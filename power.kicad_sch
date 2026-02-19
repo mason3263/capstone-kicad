@@ -4466,6 +4466,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C23894"
+			(at 229.87 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9939683e-f0ff-4d46-b7ef-3e1c2f691da8")
 		)
@@ -4964,6 +4973,15 @@
 		)
 		(property "Description" "Inductor, small symbol; SWPA252012S2R2MT"
 			(at 229.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C23894"
+			(at 229.87 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
